@@ -1,48 +1,22 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
-===========
+Instructions
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio. We will be focusing on the HTML structure and syntax of your code. Keep styles simple.
 
-[Materialize](http://materializecss.com/), a CSS Framework based on material design
+Content and Technical Requirements
 
-### Current Version : v0.97.7
+Title - make it meaningful.
+Header element <h1> - This is the main headline; include your name and what this page is.
+Photo
+Article element containing your bio
+Article element with links to resources or sites you like
+Article element with two sections for future projects (placeholders)
+Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+Semantic mark-up for all major elements.
+Validate your html page with W3 validator: https://validator.w3.org/
+Appropriate folder structure: images, css.
+Notes
 
-## Sass Requirements:
-- Ruby Sass 3.3+, LibSass 0.6+
-
-## Supported Browsers:
-Chrome 35+, Firefox 31+, Safari 7+, IE 10+
-
-## Changelog
-- v0.97.7 (July 23rd)
-  - Basic horizontal cards
-  - Carousel bug fixes and new features
-  - Updated sidenav styles and new component
-  - Meteor package now supports Sass
-  - Autocomplete form component
-  - Chips jQuery plugin
-- v0.97.6 (April 1st)
-  - **Removed deprecated material icons from project**
-  - **Changed /font directory to /fonts**
-  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
-  - Responsive tables now work with empty cells
-  - Added focus states to checkboxes, switches, and radio buttons
-  - Sidenav and Modals no longer cause flicker with scrollbar
-  - Materialbox overflow and z-index issues fixed
-  - Added new option for Card actions within a Card reveal
-- v0.97.5 (Dec 21, 2015)
-  - Fixed Meteor package crash
-- v0.97.4 (Dec 20, 2015)
-  - Added Jasmine testing with Travis CI
-  - Select bugfixes
-  - Grid Offset bugfix
-  - Dropdown overflow bugfix
-  - Range slider error bugfix
-
-
-
-## Contributing
-[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
-
-## Testing
-We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
+Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+Examples of semantic elements: <form>, <table>, and <article> - Clearly defines the content.
+Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
+Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/ Explore and create color combinations: https://color.adobe.com
