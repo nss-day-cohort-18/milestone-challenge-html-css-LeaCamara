@@ -1,54 +1,48 @@
-# The Static Web: HTML + CSS Milestone Challenge
-### Create a site for your personal branding that will showcase your work and be used as part of your graduation self-marketing.
-## Setup
+![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+===========
 
-These commands are a helpful quick start. You may choose to ignore them completely and create your own directory structure. If you choose to use this recommendation, just copy the commands below. It doesn't matter what directory you are currently in.
-Run the following command in your terminal:
+[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)[![devDependency Status](https://david-dm.org/Dogfalo/materialize/dev-status.svg)](https://david-dm.org/Dogfalo/materialize#info=devDependencies)[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dogfalo/materialize?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-```bash
-mkdir -p ~/workspace/challenges/static-web/html && cd $_
-```
+[Materialize](http://materializecss.com/), a CSS Framework based on material design
 
-This will create a project folder and cd you into it.
-When you are ready to start the challenge, request the Github Classroom link from your instructor  
-+ Once your repository is created on GitHub, copy the list of commands under **"..or create a new repository on the command line"** by clicking on the clipboard icon  
-+ Paste the commands into your terminal. This will create a README.md file, add it, commit it, connect your local reop to GitHub, and set you up to push up the changes. (If the last command, `git push origin master` isn't automatically executed, hit enter/return to run it).
+### Current Version : v0.97.7
 
-All of your work should be on a branch, NOT on master. To do this, type:
+## Sass Requirements:
+- Ruby Sass 3.3+, LibSass 0.6+
 
-```bash
-git checkout -b challenge
-touch index.html
-mkdir css && touch css/styles.css
-mkdir images
-```
-You are now ready to work in the `challenge` branch.
+## Supported Browsers:
+Chrome 35+, Firefox 31+, Safari 7+, IE 10+
 
-If you would like to have your work reviewed, push up the branch (`git push origin challenge`) and submit a pull request on Github. A member of the instruction team will take a look and give feedback. Your work does not need to be complete to receive feedback.
-
-
-## Instructions
-
-Create a site for your own personal branding. Keep in mind this is an HTML exercise, however it is also the beginning of your portfolio.  We will be focusing on the HTML structure and syntax of your code. Keep styles simple. 
-
-
-### Content and Technical Requirements
-1. Title - make it meaningful.
-1. Header element `<h1>` - This is the main headline; include your name and what this page is.
-1. Photo
-1. Article element containing your bio
-1. Article element with links to resources or sites you like
-1. Article element with two sections for future projects (placeholders)
-1. Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
-1. Semantic mark-up for all major elements.
-1. Validate your html page with W3 validator: https://validator.w3.org/
-1. Appropriate folder structure: images, css.
+## Changelog
+- v0.97.7 (July 23rd)
+  - Basic horizontal cards
+  - Carousel bug fixes and new features
+  - Updated sidenav styles and new component
+  - Meteor package now supports Sass
+  - Autocomplete form component
+  - Chips jQuery plugin
+- v0.97.6 (April 1st)
+  - **Removed deprecated material icons from project**
+  - **Changed /font directory to /fonts**
+  - Datepicker and ScrollSpy now compatible with jQuery 2.2.x
+  - Responsive tables now work with empty cells
+  - Added focus states to checkboxes, switches, and radio buttons
+  - Sidenav and Modals no longer cause flicker with scrollbar
+  - Materialbox overflow and z-index issues fixed
+  - Added new option for Card actions within a Card reveal
+- v0.97.5 (Dec 21, 2015)
+  - Fixed Meteor package crash
+- v0.97.4 (Dec 20, 2015)
+  - Added Jasmine testing with Travis CI
+  - Select bugfixes
+  - Grid Offset bugfix
+  - Dropdown overflow bugfix
+  - Range slider error bugfix
 
 
-## Notes
-* Examples of non-semantic elements: `<div>` and `<span>` - Tells nothing about its content.
-* Examples of semantic elements: `<form>`, `<table>`, and `<article>` - Clearly defines the content.
-* Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
 
-Page Titles and Headings: http://meetcontent.com/blog/introducing-content-page-titles-headings/
-Explore and create color combinations: https://color.adobe.com
+## Contributing
+[Please read CONTRIBUTING.md for more information](CONTRIBUTING.md)
+
+## Testing
+We use Jasmine as our testing framework and we're trying to write a robust test suite for our components. If you want to help, [here's a starting guide on how to write tests in Jasmine](https://docs.google.com/document/d/1dVM6qGt_b_y9RRhr9X7oZfFydaJIEqB9CT7yekv-4XE/edit?usp=sharing)
