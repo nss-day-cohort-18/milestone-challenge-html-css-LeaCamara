@@ -26,8 +26,9 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+    position: relative;
+    padding: .2em;
+    /*overflow: scroll;*/
   }
   #index-banner .section {
     top: 10%;
@@ -53,33 +54,19 @@ footer.page-footer {
 
 /* MY CUSTOM CSS: */
 
-/* I CAN'T SEEM TO FIGURE OUT HOW TO OVERRIDE EXISTING STYLES TO CHANGE THE H1 COLOR TO: color: #119888; */
-
-.quotes {
-  color: #400909;
-  background-color: #e8e3e3;
-  width: 100%;
-  opacity: .85;
-  font-size: .1em
-}
-
 #profile-photo {
   border: 2px solid darkgray;
   border-radius: 50%;
-  /*float: right;*/
-  /*display: flex;*/
-  margin-top: 2.5em;
-  margin-right: -1em;
 }
 
 .flex-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /*justify-content: center;*/
+  /*justify-content: space-around;*/
+  /*flex-wrap: wrap;*/
   align-items: center;
-  align-content: center;
+  align-content: space-around;
 }
 
 .flex-footer {
@@ -91,14 +78,3 @@ footer.page-footer {
   align-items: center;
   align-content: center;
 }
-
-
-/*.smaller-h1 {
-  font-size: 3.8em;
-  padding: 0;
-}*/
-
-/*.smaller-h4 {
-  font-size: 1.8em;
-  padding: 0;
-}*/
